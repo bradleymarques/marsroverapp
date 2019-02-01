@@ -3,7 +3,7 @@
 
 # Test on local machine
 
-* git clone https://github.com/Vutivi/marsroversapp.git
+* git clone https://github.com/Vutivi/marsroverapp.git
 
 * cd marsroverapp
 
