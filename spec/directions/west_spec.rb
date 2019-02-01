@@ -22,12 +22,12 @@ describe Directions::West do
   end
 
   describe 'move' do
-    context 'when current_position are at bottom left corner' do
-      let(:bottom_left_corner) { {x_point: 1, y_point: 1} }
-      let(:final_postion) { {x_point: 2, y_point: 1} }
+    context 'when current_position are at bottom right corner' do
+      let(:bottom_right_corner) { {x_point: 5 , y_point: 0} }
+      let(:final_postion) { {x_point: 4, y_point: 0} }
 
-      it 'returns [-1, 0]' do
-        expect(west.move(bottom_left_corner)).to eq(final_postion)
+      it 'returns [4, 0]' do
+        expect(west.move(bottom_right_corner)).to eq(final_postion)
       end
     end
   end
