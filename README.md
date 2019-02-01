@@ -1,7 +1,7 @@
 # The Mars Rovers App
 
 
-*Test on local machine*
+# Test on local machine
 
 * git clone https://github.com/Vutivi/marsroversapp.git
 
